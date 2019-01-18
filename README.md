@@ -2,6 +2,12 @@
 
 This is an android library for displaying graph such as bar chart, spiral, pie chart etc written in kotlin
 
+## Screenshots of the project
+
+1. Bar Chart
+![alt text](https://github.com/sujeet-kumar-mehta/HummingbirdGraphLibrary/tree/master/screenshots/screenshot1.png)
+
+
 ## Integration
 
 Add below line in project build.gradle
