@@ -159,7 +159,7 @@ class MainActivity : AppCompatActivity() {
                 verticalBar?.tip = "This is a very useful app to improve your driving speed"
                 verticalBar?.commentAbs = "This is a very useful app to improve your driving speed"
                 verticalBar?.commentProgression = "Put this information in progress and keep improving"
-                verticalBar?.dateString = "8 jan -14 Nov 2018"
+                verticalBar?.dateString = "8 Jan -14 Nov 2018"
                 verticalBarList?.add(verticalBar)
 
             }
@@ -204,7 +204,7 @@ class MainActivity : AppCompatActivity() {
         val mValueVerticalList = ArrayList<String>()
 
         val reportValueInterval = 100?.div(5)
-        var percentage = "%"
+        var percentage = ""
         for (i in 5 downTo 1) {
             var interval = DecimalFormat("###.#").format(reportValueInterval?.times(i)!!)
 

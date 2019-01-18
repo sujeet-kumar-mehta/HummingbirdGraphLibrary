@@ -89,10 +89,10 @@ class VerticalBarAdapter : RecyclerView.Adapter<VerticalBarViewHolder> {
 
     private fun actionOnClick(v: View, verticalBar: VerticalBar, holder: VerticalBarViewHolder) {
         lastClickedBarView!!.animate()
-                .scaleX(1.0f)
-                //                                .y(event.getRawY() + dY)
-                .setDuration(200)
-                .start()
+            .scaleX(1.0f)
+            //                                .y(event.getRawY() + dY)
+            .setDuration(200)
+            .start()
 
         val location = IntArray(2)
         v.getLocationOnScreen(location)
@@ -103,10 +103,10 @@ class VerticalBarAdapter : RecyclerView.Adapter<VerticalBarViewHolder> {
         holder.barView.postDelayed({
             lastClickedBarView = holder.barView
             holder.barView.animate()
-                    .scaleX(1.4f)
-                    //                                .y(event.getRawY() + dY)
-                    .setDuration(200)
-                    .start()
+                .scaleX(1.4f)
+                //                                .y(event.getRawY() + dY)
+                .setDuration(200)
+                .start()
         }, 150)
     }
 
@@ -122,17 +122,25 @@ class VerticalBarAdapter : RecyclerView.Adapter<VerticalBarViewHolder> {
 //        holder.graphCanvas.pointsOrange.addAll(verticalBar.pointsOrange)
 //        holder.graphCanvas.pointsYellow = verticalBar.pointsYellow
 //        holder.graphCanvas.pointsGreen = verticalBar.pointsGreen
-//        holder.graphCanvas.pathCreation()
-//        holder.graphCanvas.setPaint()
-//        holder.graphCanvas.isShowGradiant = sizeOfClickableNumber == 1
-//        holder.graphCanvas.postInvalidate()
+        holder.graphCanvas.pathCreation()
+        holder.graphCanvas.setPaint()
+        holder.graphCanvas.isShowGradiant = sizeOfClickableNumber == 1
+        holder.graphCanvas.postInvalidate()
 
 
         //holder.graphCanvas.visibility= if(sizeOfClickableNumber==1) VISIBLE else GONE
 
 
-        val widthDP = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, barWidth.toFloat(), mActivity?.resources?.displayMetrics).toInt()
-        val hightDP = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, maxHeight * verticalBar.percentage, mActivity?.resources?.displayMetrics).toInt()
+        val widthDP = TypedValue.applyDimension(
+            TypedValue.COMPLEX_UNIT_DIP,
+            barWidth.toFloat(),
+            mActivity?.resources?.displayMetrics
+        ).toInt()
+        val hightDP = TypedValue.applyDimension(
+            TypedValue.COMPLEX_UNIT_DIP,
+            maxHeight * verticalBar.percentage,
+            mActivity?.resources?.displayMetrics
+        ).toInt()
 
         val layoutParams = FrameLayout.LayoutParams(widthDP, hightDP)
         layoutParams.gravity = Gravity.CENTER or Gravity.BOTTOM

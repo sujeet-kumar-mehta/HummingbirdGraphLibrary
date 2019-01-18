@@ -177,7 +177,7 @@ class GraphCanvas : ImageView {
 
     }
 
-    var isShowGradiant: Boolean? = true
+    var isShowGradiant: Boolean? = false
 
     private fun drawGraph(canvas: Canvas) {
         canvas.drawPath(pathOrange, paintOrange!!)
