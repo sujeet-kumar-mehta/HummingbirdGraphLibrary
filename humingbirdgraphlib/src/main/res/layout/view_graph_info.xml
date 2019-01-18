@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent">
+
+    <android.support.design.card.MaterialCardView
+            android:id="@+id/graph_tip_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:fadingEdge="vertical"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/graph_green"
+            app:strokeWidth="1dp">
+
+        <LinearLayout
+                android:id="@+id/tool_tip_info_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="22dp"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/tip_date_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#272727"
+                    android:textSize="16sp"
+
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:id="@+id/report_info_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:fontFamily="sans-serif"
+                    android:lineSpacingExtra="6sp"
+
+                    android:textColor="#525252"
+                    android:textSize="14sp"
+                    android:textStyle="normal"/>
+
+            <android.support.design.card.MaterialCardView
+                    android:id="@+id/suggestion_materical_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    app:cardBackgroundColor="@color/graph_alph20green"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="0dp">
+
+                <android.support.design.card.MaterialCardView
+                        android:id="@+id/suggestion_circular_materical_card"
+
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_margin="8dp"
+                        android:layout_marginTop="16dp"
+                        app:cardBackgroundColor="@color/graph_green"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="0dp">
+                    <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:padding="4dp"
+                    ></ImageView>
+                </android.support.design.card.MaterialCardView>
+
+                <TextView
+                        android:id="@+id/suggestion_tv"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="41dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="sans-serif"
+                        android:lineSpacingExtra="8sp"
+                        android:textColor="#525252"
+                        android:textSize="12sp"
+                        android:textStyle="normal"/>
+
+            </android.support.design.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+                android:id="@+id/not_paid_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="22dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+            <TextView
+                    android:id="@+id/tip_date2_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#272727"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+            <android.support.design.card.MaterialCardView
+                    android:layout_width="160dp"
+                    android:layout_height="14dp"
+                    android:layout_marginTop="9dp"
+                    android:fadingEdge="vertical"
+                    app:cardBackgroundColor="#e0e0e0"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="0dp"></android.support.design.card.MaterialCardView>
+
+            <android.support.design.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"
+                    android:layout_marginTop="9dp"
+                    android:fadingEdge="vertical"
+                    app:cardBackgroundColor="#e0e0e0"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="0dp"></android.support.design.card.MaterialCardView>
+
+            <android.support.design.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="9dp"
+                    android:fadingEdge="vertical"
+                    app:cardBackgroundColor="#e0e0e0"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="0dp"></android.support.design.card.MaterialCardView>
+
+
+            <TextView
+                    android:id="@+id/active_plan_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:fontFamily="sans-serif"
+                    android:text="To check your Analysis Active your plan"
+                    android:textColor="#272727"
+                    android:textSize="12sp"
+                    android:textStyle="normal"/>
+
+
+        </LinearLayout>
+
+    </android.support.design.card.MaterialCardView>
+
+    <com.butterflybarchart.TriangleView
+            android:id="@+id/trangleView"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="top"
+            app:tr_color="@color/graph_green"
+            app:tr_direction="up"/>
+
+    <com.butterflybarchart.TriangleView
+            android:id="@+id/trangleViewShadow"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="top"
+            android:layout_marginTop="2dp"
+            app:tr_color="@android:color/white"
+            app:tr_direction="up"/>
+</FrameLayout>

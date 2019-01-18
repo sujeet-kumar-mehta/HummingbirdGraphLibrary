@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp">
+
+    <View
+        android:id="@+id/vertical_bar_color_indicator"
+        android:layout_width="4dp"
+        android:layout_height="16dp"
+        android:layout_gravity="left|center_vertical"
+
+        android:background="@color/graph_green"></View>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="12dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#272727"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        tools:text="More than 75% users" />
+</FrameLayout>

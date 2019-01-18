@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HummingbirdGraphLibC</string>
+
+    <color name ="red_700">#D32F2F</color>
+    <color name="graph_yellow">#ffe062</color>
+    <color name="graph_orange">#ff792f</color>
+    <color name="graph_green">#4dde74</color>
+    <color name="graph_red">#D32F2F</color>
+    <color name="grey">#eeeeee</color>
+
+    <color name="graph_alph20_yellow">#60ffe062</color>
+    <color name="graph_alph20_orange">#60ff792f</color>
+    <color name="graph_alph20green">#604dde74</color>
+    <color name="graph_alph20red">#60D32F2F</color>
+    <color name="graph_alph20gray">#207d7d7d</color>
+
+    <color name="graph_alph10_yellow">#10ffe062</color>
+    <color name="graph_alph10_orange">#10ff792f</color>
+    <color name="graph_alph10green">#104dde74</color>
+    <color name="graph_alph10red">#10D32F2F</color>
+    <color name="graph_alph10gray">#107d7d7d</color>
+</resources>

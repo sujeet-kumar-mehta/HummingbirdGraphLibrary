@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="24dp"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <com.butterflybarchart.GraphCanvas
+        android:id="@+id/graphCanvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:id="@+id/bar_view"
+        android:layout_width="12dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@color/graph_green"></View>
+
+    <ImageView
+        android:id="@+id/lock_ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_lock_unpaid" />
+
+
+</FrameLayout>
