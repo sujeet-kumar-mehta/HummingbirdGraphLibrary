@@ -6,6 +6,8 @@ This is an android library for displaying graph such as bar chart, spiral, pie c
 
 1. 
 ![ScreenShots](/screenshots/screenshot1.png)
+2.
+![ScreenShots](/screenshots/screeenshot_2.png)
 
 
 ## Integration
