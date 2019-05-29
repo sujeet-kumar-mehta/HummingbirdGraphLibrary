@@ -5,7 +5,7 @@ This is an android library for displaying graph such as bar chart, spiral, pie c
 ## Screenshots of the project
 
 
-![bar-chat-1](https://github.com/sujeet-kumar-mehta/HummingbirdGraphLibrary/blob/master/screenshots/screenshot1.png "Bar Chart 1") ![bar-chat-2](https://github.com/sujeet-kumar-mehta/HummingbirdGraphLibrary/blob/master/screenshots/screenshot_2.png "Bar Chart 2")
+![bar-chat-1](https://github.com/sujeet-kumar-mehta/HummingbirdGraphLibrary/blob/master/screenshots/screenshot1.png "Bar Chart 1")  ![bar-chat-2](https://github.com/sujeet-kumar-mehta/HummingbirdGraphLibrary/blob/master/screenshots/screeenshot_2.png "Bar Chart 2")
 
 ## Integration
 
