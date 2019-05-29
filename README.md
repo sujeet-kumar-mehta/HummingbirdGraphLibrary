@@ -4,16 +4,16 @@ This is an android library for displaying graph such as bar chart, spiral, pie c
 
 ## Screenshots of the project
 
-1. 
-![Bar Chart](https://github.com/sujeet-kumar-mehta/HummingbirdGraphLibrary/tree/master/screenshots/screenshot1.png)
-2.
-![Bar Chart 2](https://github.com/sujeet-kumar-mehta/HummingbirdGraphLibrary/tree/master/screenshots/screeenshot_2.png)
-3.
-![Bar Chart 3](https://github.com/sujeet-kumar-mehta/HummingbirdGraphLibrary/tree/master/screenshots/screenshots_3.png)
-4.
-![Bar Chart 4](https://github.com/sujeet-kumar-mehta/HummingbirdGraphLibrary/tree/master/screenshots/screen_shots_4.png)
+//1.
+//![Bar Chart](https://github.com/sujeet-kumar-mehta/HummingbirdGraphLibrary/tree/master/screenshots/screenshot1.png)
+//2.
+//![Bar Chart 2](https://github.com/sujeet-kumar-mehta/HummingbirdGraphLibrary/tree/master/screenshots/screeenshot_2.png)
+//3.
+//![Bar Chart 3](https://github.com/sujeet-kumar-mehta/HummingbirdGraphLibrary/tree/master/screenshots/screenshots_3.png)
+//4.
+//![Bar Chart 4](https://github.com/sujeet-kumar-mehta/HummingbirdGraphLibrary/tree/master/screenshots/screen_shots_4.png)
 
-
+![alt-text-1](https://github.com/sujeet-kumar-mehta/HummingbirdGraphLibrary/tree/master/screenshots/screenshot1.png "Bar Chart 1") ![alt-text-2](https://github.com/sujeet-kumar-mehta/HummingbirdGraphLibrary/tree/master/screenshots/screeenshot_2.png "Bar Chart 2")
 
 ## Integration
 
